@@ -1,0 +1,47 @@
+{
+  "extends": "standard",
+  "ecmaFeatures": {
+    "modules": true,
+    "experimentalObjectRestSpread": true
+  },
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true,
+    "jest": true
+  },
+  "plugins": [
+    "import",
+    "jsx-a11y",
+    "react"
+  ],
+  "parser": "babel-eslint",
+  "globals": {
+    "document": false,
+    "navigator": false,
+    "window": false,
+    "expect": false,
+    "sinon": false,
+    "before": false,
+    "after": false,
+    "afterEach": false,
+    "describe": false,
+    "beforeEach": false,
+    "inject": false,
+    "it": false,
+    "context": false
+  },
+  "rules": {
+    "object-curly-spacing": ["error", "always"],
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "no-console": 2,
+    "no-alert": 2
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true,
+      "experimentalObjectRestSpread": true
+    }
+  }
+}
