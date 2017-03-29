@@ -22,7 +22,7 @@ export class Home extends React.Component {
           </h1>
         </header>
         <article>
-          You can check the source on <a href="https://github.com/somogyibence/bencesomogyi.com" target="_blank">github</a>.
+          You can check the source on <a rel="noopener" href="https://github.com/somogyibence/bencesomogyi.com" target="_blank">github</a>.
           PRs are welcome.
         </article>
       </section>
