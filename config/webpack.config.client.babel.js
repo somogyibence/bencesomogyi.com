@@ -53,6 +53,9 @@ const plugins = [
   new CopyWebpackPlugin([{
     from: path.join(basePath, './assets/img'),
     to: './img'
+  }, {
+    from: path.join(basePath, './manifest.json'),
+    to: './'
   }]),
   new HtmlWebpackPlugin({
     template: './client/index.html',
